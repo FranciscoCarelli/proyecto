@@ -1,0 +1,102 @@
+*{
+margin: 0;
+padding:0;
+}
+header nav ul{
+background-color: #08df3e;
+text-decoration: none; 
+list-style: none;
+text-align: center;
+margin-left: 50px;
+}
+header nav img{
+height: 100px;
+margin: -11px 0 0 100px;
+}
+nav{
+background-color: #fcb62a;
+display: flex;
+align-items: center;
+}
+
+nav li{
+display: inline-block;
+padding:10px;
+}
+nav li:hover{
+background-color: #09a22f;
+}
+
+nav a{
+text-decoration: none;
+} 
+
+#carrito{
+height: 50px;
+margin: 0 0 0 800px;
+}
+
+main div h1{
+    text-align: center;
+    color: black;
+    font-size: 45px;
+}
+
+main div p{
+    padding: 0 300px 0 300px;
+}
+
+.imagen-izq{
+ height: 400px;
+ display: inline-block;
+
+}
+
+.tarjeta1{
+    margin: 50px 0 0 0;
+display: flex;
+background-color: gray;
+}
+
+.p-tarjetas{
+margin: auto;
+color: #08df3e;
+}
+
+.tarjeta2{
+display: flex;
+margin: 50px 0 0 0;
+}
+
+.tarjeta2 img{
+display: flex;
+height: 450px;
+}
+.footer img{
+height: 100px;
+margin-left: 300px;
+}
+
+.producto1{
+    margin-left: 100px;
+    margin-top:50px;
+    border: black;
+}
+footer{
+margin-top: 50px;
+border-top: solid black;}
+
+.nos{
+margin: 50px;
+background-color: firebrick;
+display: flex;
+text-align: center;
+}
+
+main div img{
+height: 300px;
+display: inline-block;
+}
+
+button{
+background-color: #fcb62a;}
