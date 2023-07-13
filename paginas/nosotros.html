@@ -5,24 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-     <header>
-          <nav>
-            <img src="../multimedia/logo af.jpg" alt="Logo de la empresa">
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./nosotros.html">Nosotros</a></li>
-                <li><a href="./contacto.html">Contactos</a></li>
-            </ul>
-            <img id="carrito" src="../multimedia/carrito.png" alt="carrito">
-         </nav>
+    <header>
+        <div class="container-master">
+            <nav class="navbar">
+                <div class="content-logo">
+                    <img src="../multimedia/logo aff.png" alt="Logo de la empresa">
+                </div>
+                <div class="container-menu">
+                    <ul class="menu">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./productos.html">Productos</a></li>
+                        <li><a href="./nosotros.html">Nosotros</a></li>
+                        <li><a href="./contacto.html">Contactos</a></li>
+                     </ul>
+                </div>
+            </nav>
+        </div>
     </header>
 <main>
     <div class="nos">
-        <img src="../multimedia/img3.jpg" alt="empresa familiar">
+        <img class="imagen-nosotros" src="../multimedia/img3.jpg" alt="empresa familiar">
         <p>Arroyo Fresco es una empresa familiar argentina que desde 1994 se dedica a la producción y fraccionamiento de la miel.
             Nuestros colmenares están ubicados en una zona totalmente libre de contaminación en el Parque Nacional Nahuel Huapi (Río Negro, Argentina
             Nuestra misión es perfeccionarnos día a día para poder brindar al consumidor un producto puro por naturaleza, genuino por su origen y saludable por su composición.
@@ -33,12 +39,28 @@
     
 </main>
 <footer>
-       <div class="footer">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptates eum in, facere nostrum quod fugit alias eligendi, odit quia dicta ullam consectetur, odio iusto minima earum praesentium beatae saepe vero! Repellat earum minus quod et sunt nemo doloribus sed neque facere, excepturi adipisci. Recusandae quidem tenetur natus quasi debitis, ex aliquam excepturi illum libero!</p>
-          <img src="../multimedia/logo face.png" alt="logo facebook">
-          <img src="../multimedia/logo tw.png" alt="logo twitter">
-          <img src="../multimedia/logo insta.png" alt="logo instagram">
+    <div class="footer">
+        <div class="info">
+            <a href="#" class="p-footer-envios">Envios a todo el pais</a>           
+            <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
         </div>
-   </footer>
+        <div class="contacto">
+            <h3>Contactanos</h3>
+            <span>Tel: 1234-5678</span>
+            <br>
+            <span>Direccion: La quiaca 1234</span>
+        </div>
+        <div class="container-mapa">
+            <iframe  class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d315.8663250487858!2d-71.31016898783238!3d-41.13352400348916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b72dbb708e1%3A0xd91b7e92f820aa94!2sCentro%20C%C3%ADvico%20Bariloche!5e0!3m2!1ses!2sar!4v1689204308540!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="nombramiento-autor">
+        <p>@carellifrancisco</p>
+    </div>
+</footer>
 </body>
 </html>

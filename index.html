@@ -5,47 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
      <header>
-          <nav>
-            <img src="multimedia/logo af.jpg" alt="Logo de la empresa">
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./paginas/productos.html">Productos</a></li>
-                <li><a href="./paginas/nosotros.html">Nosotros</a></li>
-                <li><a href="./paginas/contacto.html">Contactos</a></li>
-            </ul>
-            <img id="carrito" src="./multimedia/carrito.png" alt="carrito">
-         </nav>
+        <div class="container-master">
+            <nav class="navbar">
+                <div class="content-logo">
+                    <img src="multimedia/logo aff.png" alt="Logo de la empresa">
+                </div>
+                <div class="container-menu">
+                    <ul class="menu">
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="./paginas/productos.html">Productos</a></li>
+                        <li><a href="./paginas/nosotros.html">Nosotros</a></li>
+                        <li><a href="./paginas/contacto.html">Contactos</a></li>
+                     </ul>
+                </div>
+            </nav>
+        </div>
     </header>
     <main>
-           <div>
+           <div class="banner">
                 <h1>Arroyo Fresco</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi laboriosam, autem et quod, quasi obcaecati minima cumque dolor, sequi ducimus nemo! Dolorum assumenda distinctio iure quam consequuntur recusandae harum nihil. Perferendis vel voluptatem harum distinctio qui? Illum ipsam saepe quibusdam error. Fugiat dicta vero doloribus harum voluptate explicabo saepe neque alias maiores.</p>
+                <p>La empresa Arroyo Fresco es reconocida en Bariloche por su excepcional calidad de miel. Su compromiso con la producción responsable y sostenible les ha permitido destacarse en el mercado. Con una amplia variedad de miel pura y deliciosa, Arroyo Fresco se enorgullece de ofrecer productos naturales y sin aditivos. Su ubicación privilegiada en Bariloche, rodeada de paisajes impresionantes, garantiza que sus colmenas se encuentren en un entorno libre de contaminantes. Como resultado, cada frasco de miel Arroyo Fresco es un testimonio de la belleza y pureza de la Patagonia. Descubre el sabor auténtico de la miel de la mano de Arroyo Fresco.
             </div>
-            <div class="tarjeta1">
-                <img class="imagen-izq" src="./multimedia/miel con paisaje de barilo.jpg" alt="colmenas con paisaje de bariloche">
-           <p class="p-tarjetas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate dicta neque consectetur laudantium, officiis sequi placeat, in exercitationem accusantium corrupti quas expedita aperiam deserunt quis architecto perferendis at sint! Fuga tempore aliquid eligendi illo dignissimos voluptatum soluta adipisci fugit laboriosam dolores pariatur aspernatur non molestiae totam hic fugiat expedita nemo dicta, architecto necessitatibus impedit! Sapiente veritatis autem ad omnis quam perspiciatis optio, laboriosam soluta minus exercitationem asperiores accusamus earum velit, odio nobis quo error recusandae, maxime quae ut illum tempora vero. Hic ipsa obcaecati eos id asperiores aut minus aliquam?</p>
-            </div>
-            <div class="tarjeta2">
-                <p class="p-tarjetas">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate dicta neque consectetur laudantium, officiis sequi placeat, in exercitationem accusantium corrupti quas expedita aperiam deserunt quis architecto perferendis at sint! Fuga tempore aliquid eligendi illo dignissimos voluptatum soluta adipisci fugit laboriosam dolores pariatur aspernatur non molestiae totam hic fugiat expedita nemo dicta, architecto necessitatibus impedit! Sapiente veritatis autem ad omnis quam perspiciatis optio, laboriosam soluta minus exercitationem asperiores accusamus earum velit, odio nobis quo error recusandae, maxime quae ut illum tempora vero. Hic ipsa obcaecati eos id asperiores... conoce nuestros <a href="paginas/productos.html">productos</a></p>
-                <img src="./multimedia/productos.jpg" alt="foto de mieles">
-            </div>
-            <div class="tarjeta1">
-                <img class="imagen-izq" src="./multimedia/producc.jpg" alt="produccion">
-           <p class="p-tarjetas">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate dicta neque consectetur laudantium, officiis sequi placeat, in exercitationem accusantium corrupti quas expedita aperiam deserunt quis architecto perferendis at sint! Fuga tempore aliquid eligendi illo dignissimos voluptatum soluta adipisci fugit laboriosam dolores pariatur aspernatur non molestiae totam hic fugiat expedita nemo dicta, architecto necessitatibus impedit! Sapiente veritatis autem ad omnis quam perspiciatis optio, laboriosam soluta minus exercitationem asperiores accusamus earum velit, odio nobis quo error recusandae, maxime quae ut illum tempora vero. Hic ipsa obcaecati eos id asperiores aut minus aliquam?</p>            
-        </div>
+            <div class="tarjetas">
+                    <div class="tarjeta1 img-izquierda">
+                        <img class="imagen-izq" src="./multimedia/miel con paisaje de barilo.jpg" alt="colmenas con paisaje de bariloche">
+                         <p class="p-tarjetas parrafo-derecha">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate dicta neque consectetur laudantium, officiis sequi placeat, in exercitationem accusantium corrupti quas expedita aperiam deserunt quis architecto perferendis at sint! Fuga tempore aliquid eligendi illo dignissimos voluptatum soluta adipisci fugit laboriosam dolores pariatur aspernatur non molestiae totam hic fugiat expedita nemo dicta, architecto necessitatibus impedit! Sapiente veritatis autem ad omnis quam perspiciatis optio, laboriosam soluta minus exercitationem asperiores accusamus earum velit, odio nobis quo error recusandae, maxime quae ut illum tempora vero. Hic ipsa obcaecati eos id asperiores aut minus aliquam?</p>
+                    </div>
+                    <div class="tarjeta2 ">
+                        <p class="p-tarjetas parrafo-izquierda">
+                            Descubre la excelencia de nuestros productos en Arroyo Fresco. Nos enorgullece ofrecerte una selección cuidadosamente elaborada que combina la pureza de la naturaleza con sabores irresistibles. Desde nuestra miel multifloral hasta nuestras deliciosas variedades infusionadas, cada producto es una obra maestra culinaria que deleitará tus sentidos. Nuestro compromiso con la calidad y la frescura se refleja en cada etapa de producción, desde la recolección de néctar hasta el envasado en frascos de vidrio. Sumérgete en la experiencia única de disfrutar de nuestras creaciones y despierta tus papilas gustativas a nuevos horizontes de sabor. Arroyo Fresco, donde la calidad y la pasión se unen en cada bocado. ¡Conoce nuestros<a href="paginas/productos.html">productos</a> y déjate cautivar por su extraordinario sabor!</p>
+                        <img class="imagen-derecha" src="./multimedia/productos.jpg" alt="foto de mieles">
+                    </div>
+                    <div class="tarjeta3 img-izquierda">
+                        <img class="imagen-izq" src="./multimedia/producc.jpg" alt="produccion">
+                        <p class="p-tarjetas parrafo-derecha">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate dicta neque consectetur laudantium, officiis sequi placeat, in exercitationem accusantium corrupti quas expedita aperiam deserunt quis architecto perferendis at sint! Fuga tempore aliquid eligendi illo dignissimos voluptatum soluta adipisci fugit laboriosam dolores pariatur aspernatur non molestiae totam hic fugiat expedita nemo dicta, architecto necessitatibus impedit! Sapiente veritatis autem ad omnis quam perspiciatis optio, laboriosam soluta minus exercitationem asperiores accusamus earum velit, odio nobis quo error recusandae, maxime quae ut illum tempora vero. Hic ipsa obcaecati eos id asperiores aut minus aliquam?</p>            
+                </div>
+    </div>
 </main>
 <footer>
-       <div class="footer">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptates eum in, facere nostrum quod fugit alias eligendi, odit quia dicta ullam consectetur, odio iusto minima earum praesentium beatae saepe vero! Repellat earum minus quod et sunt nemo doloribus sed neque facere, excepturi adipisci. Recusandae quidem tenetur natus quasi debitis, ex aliquam excepturi illum libero!</p>
-          <img src="./multimedia/logo face.png" alt="logo facebook">
-          <img src="./css/tw.png" alt="logo twitter">
-          <img src="./multimedia/logo insta.png" alt="logo instagram">
+    <div class="footer">
+        <div class="info">
+            <a href="#" class="p-footer-envios">Envios a todo el pais</a>           
+            <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
         </div>
-   </footer>
+        <div class="contacto">
+            <h3>Contactanos</h3>
+            <span>Tel: 1234-5678</span>
+            <br>
+            <span>Direccion: La quiaca 1234</span>
+        </div>
+        <div class="container-mapa">
+            <iframe  class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d315.8663250487858!2d-71.31016898783238!3d-41.13352400348916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b72dbb708e1%3A0xd91b7e92f820aa94!2sCentro%20C%C3%ADvico%20Bariloche!5e0!3m2!1ses!2sar!4v1689204308540!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="nombramiento-autor">
+        <p>@carellifrancisco</p>
+    </div>
+</footer>
 </body>
 </html>
