@@ -77,7 +77,7 @@ main .banner p{
 
 .imagen-izq{
     grid-area: foto1;
-
+    width: 100%;
 }
 .parrafo-derecha{
     grid-area: parrafo-der;
@@ -99,7 +99,7 @@ main .banner p{
 
 .imagen-derecha{
     grid-area: img-derecha;
-    height: 550px;
+    width: 100%;
     border-left: black solid 1px;
 }
 
@@ -143,17 +143,16 @@ button{
     background-color: #fcb62a;
 }
 
-.nos{
+/*.nos{
     margin: 50px;
     background-color: firebrick;
     display: grid;
     grid-template-columns: 1fr 2fr;
     text-align: center;
-}
+}*/
 
 .imagen-nosotros{
     display: flex;
-    object-fit: cover;
     height: 90%;
 }
 
@@ -209,4 +208,78 @@ opacity: 0.7;
 
 .p-footer-envios{
     color: black;
+}
+
+/*grid-contactos*//*grid-contactos*//*grid-contactos*//*grid-contactos*//*grid-contactos*//*grid-contactos*/
+
+.img-contact{
+    display: none;
+}
+
+.formulario{
+    background-color: blue;
+    color:white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "label-nombre input-nombre label-apellido input-apellido"
+                         "label-email  input-email  label-numero   input-numero"
+                         "label-ubic   input-ubic   label-mensaje  input-mensaje"
+                         "boton          ...             ...        input-mensaje";
+    width: 600px;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+.formulario label:nth-child(1){
+grid-area: label-nombre;
+}
+
+.formulario input:nth-child(2){
+grid-area: input-nombre;
+}
+
+.formulario label:nth-child(3){
+    grid-area: label-apellido;
+}
+
+.formulario input:nth-child(4){
+grid-area: input-apellido;
+}
+
+.formulario label:nth-child(5){
+    grid-area: label-email;
+}
+
+.formulario input:nth-child(6){
+grid-area: input-email
+}
+
+.formulario label:nth-child(7){
+    grid-area: label-numero;
+}
+
+.formulario input:nth-child(8){
+    grid-area: input-numero;
+}
+
+.formulario label:nth-child(9){
+    grid-area: label-ubic;
+}
+
+
+.formulario input:nth-child(10){
+    grid-area: input-ubic;
+}
+
+.formulario label:nth-child(11){
+    grid-area: label-mensaje;
+}
+
+.formulario input:nth-child(12){
+    grid-area: input-mensaje;
+}
+
+.formulario button:nth-child(13){
+    grid-area: boton;
 }
