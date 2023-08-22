@@ -33,6 +33,7 @@ box-sizing: border-box;
 
 .container-menu .menu{
     display: flex;
+    flex-wrap: nowrap;
     gap: 50px;
 }
 .container-menu .menu a{
